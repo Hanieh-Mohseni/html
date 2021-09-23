@@ -1,1 +1,82 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Registration</h2>
+
+
+<form action="/action_page.php">
+
+    <tr>
+            
+        <th>
+            <label for="Username">username</label>
+            <input type="text" id="User" name="user" required>
+            </th>
+
+            <th>
+                <label for="pass">Password</label>
+                <input type="text" id="pass" name="pass" required>
+                </th>
+
+                <th>
+                    <label for="Email">Email</label>
+                    <input type="text" id="Email" name="Email" required>
+                    </th>
+    
+
+</tr>
+</form>
+
+<h3>Which taxi do you require?</h3>
+
+<form action="/action_page.php">
+      <input type="radio" id="car-type" name="car" value="Car">
+      <label for="car">Car</label>
+      <input type="radio" id="Van" name="van" value="Van">
+      <label for="van">Van</label>
+      <input type="radio" id="tuktuk" name="Tuk Tuk" value="Tuktuk">
+    <label for="tuktuk">Tuk Tuk</label>
+      
+    </form>
+
+
+<h3>Choose your extras</h3>
+<form action="/action_page.php">
+    
+      <input type="checkbox"  id="Baby seat" name="car" value="Baby seat">
+      <label for="Baby Seat">Baby seat</label>
+      <input type="checkbox" id="Wheelchair access" name="Wheelchair access" value="Wheelchair access">
+      <label for="van">Wheelchair access</label>
+      <input type="checkbox"  id="Privacy windows" name="Privacy windows" value="Privacy windows">
+    <label for="Privacy windows">Privacy windows</label>
+      
+    </form>
+
+<h3>Where would you like us to pick you up?</h3>
+
+<form>
+    <tr>
+        <th>Pickup Location:</th>
+    <th><select>
+      <option value="1">Select one</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    </th>
+  </form>
+<p> </p>
+<h3>Additional instructions</h3>
+
+<form action="/action_page.php">
+    <label for="Special">Special</label>
+    <input type="text" id="Special" name="Special" required>
+    <input type="submit">
+  </form>
+
+
+</body>
+    </html>
